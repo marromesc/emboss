@@ -1,7 +1,5 @@
 #!/usr/bin/perl
 
-## INSERTAR BUCLE. Que el programa pregunte si vamos a obtener las secuencias de una base de datos que tengamos descargada o directamente de un link. En el segundo caso que pida los links.
-
 ############################
 ## DOWNLOAD THE SEQUENCES ##
 ############################
