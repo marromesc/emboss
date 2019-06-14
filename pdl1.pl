@@ -34,7 +34,7 @@ more pd1l1_human.fasta
 ## PROTEIN COMPOSITION ##
 #########################
 
-## To calculate the composition of trinucleotides in sequence:
+## To calculate the composition of triucleotides in sequence:
 
 compseq Homo_sapiens_CD274_sequence.fa -word 3 -outfile trinucleotide_composition.comp
 
