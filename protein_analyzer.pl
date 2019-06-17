@@ -33,26 +33,39 @@ foreach my $file(@files){
    #PROTEIN COMPOSITION
    ####################
    #backtranambig to back-translate a protein sequence to ambiguous nucleotide sequence
-   print OUTPUT "backtranambig $file -outfile ambigous_nucleotide_$file.fasta;\n";
+   print OUTPUT "backtranambig $file -outfile ambigous_nucleotide_$file;\n";
    #backtranseq to back-translate a protein sequence to a nucleotide sequence
-   print OUTPUT "backtranseq $file -outfile nucleotide_$file.fasta;\n";
+   print OUTPUT "backtranseq $file -outfile nucleotide_$file;\n";
    #compseq to calculate the composition of unique words in sequences
    print OUTPUT "compseq $file -word 3 -auto;\n";
    #pepdigest to report on protein proteolytic enzyme or reagent cleavage sites
-   print OUTPUT "pepdigest $file -menu 1 -outfile trypsin_$file.fasta -auto;\n";
-   print OUTPUT "pepdigest $file -menu 2 -outfile LysC_$file.fasta -auto;\n";
-   print OUTPUT "pepdigest $file -menu 3 -outfile ArgC_$file.fasta -auto;\n";
-   print OUTPUT "pepdigest $file -menu 4 -outfile AspN_$file.fasta -auto;\n";
-   print OUTPUT "pepdigest $file -menu 5 -outfile V8bicarb_$file.fasta -auto;\n";
-   print OUTPUT "pepdigest $file -menu 6 -outfile V8phosph_$file.fasta -auto;\n";
-   print OUTPUT "pepdigest $file -menu 7 -outfile Chymotryps_$file.fasta -auto;\n";
-   print OUTPUT "pepdigest $file -menu 8 -outfile CNBr_$file.fasta -auto;\n";
+   print OUTPUT "pepdigest $file -menu 1 -outfile trypsin_$file -auto;\n";
+   print OUTPUT "pepdigest $file -menu 2 -outfile LysC_$file -auto;\n";
+   print OUTPUT "pepdigest $file -menu 3 -outfile ArgC_$file -auto;\n";
+   print OUTPUT "pepdigest $file -menu 4 -outfile AspN_$file -auto;\n";
+   print OUTPUT "pepdigest $file -menu 5 -outfile V8bicarb_$file -auto;\n";
+   print OUTPUT "pepdigest $file -menu 6 -outfile V8phosph_$file -auto;\n";
+   print OUTPUT "pepdigest $file -menu 7 -outfile Chymotryps_$file -auto;\n";
+   print OUTPUT "pepdigest $file -menu 8 -outfile CNBr_$file -auto;\n";
+   #wordcount to count and extract unique words in molecular sequence
+   print OUTPUT "wordcount $file -wordsize 3 -auto;\n";   
+
+   #PROTEIN PROPERTIES 
+   ###################
    #pepinfo to produce information on amino acid properties (size, polarity, aromaticity, charge etc)
    print OUTPUT "pepinfo $file -outfile prot_report.pepinfo -graph png -auto;\n";
    #pepstats to Calculate statistics of protein properties.
    print OUTPUT "pepstats $file -outfile protein_properties.pepstats;\n";
-   #wordcount to count and extract unique words in molecular sequence
-   print OUTPUT "wordcount $file -wordsize 3 -auto;\n";   
+   #charge to draw a protein charge plot
+   print OUTPUT "charge $file -graph png -auto;\n";
+   #iep to calculate the isoelectric point of proteins
+   print OUTPUT "iep $file -auto;\n";
+   #hmoment to calculate and plot hydrophobic moment for protein sequence
+   print OUTPUT "hmoment $file -auto;\n";
+   #octanol to draw a WW protein hydropathy plot
+   print OUTPUT "octanol $file -graph png -auto;\n";
+   #pepwindowall to draw a KD protein hydropathy plot
+   print OUTPUT "pepwindowall $file -graph png -auto;\n";
 
    #PROTEIN FUNCTIONAL SITES
    #########################
@@ -83,22 +96,18 @@ foreach my $file(@files){
    #pscan to scan protein sequence(s) with fingerprints from the PRINTS database 
    print OUTPUT "pscan $file -auto;\n";
    
-   #PROTEIN PROPERTIES 
-   ###################
-   #charge to draw a protein charge plot
-   print OUTPUT "charge $file -graph png -auto;\n";
-   #hmoment to calculate and plot hydrophobic moment for protein sequence
-   print OUTPUT "hmoment $file -auto;\n";
-   #iep to calculate the isoelectric point of proteins
-   print OUTPUT "iep $file -auto;\n";
-   #octanol to draw a WW protein hydropathy plot
-   print OUTPUT "octanol $file -graph png -auto;\n";
-   #pepwindowall to draw a KD protein hydropathy plot
-   print OUTPUT "pepwindowall $file -graph png -auto;\n";
 }
 
-
 print "'Protein Analysis with EMBOSS' batch file created (emboss.bat). You have to call it to run EMBOSS commands\n";
+
+
+
+
+
+
+
+
+
 
 
 
