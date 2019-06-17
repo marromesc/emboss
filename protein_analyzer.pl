@@ -33,7 +33,7 @@ foreach my $file(@files){
    #PROTEIN COMPOSITION
    ####################
    #backtranambig to back-translate a protein sequence to ambiguous nucleotide sequence
-   print OUTPUT 'backtranambig $file -outfile ambigous_nucleotide_$file.fasta;\n';
+   print OUTPUT "backtranambig $file -outfile ambigous_nucleotide_$file.fasta;\n";
    #backtranseq to back-translate a protein sequence to a nucleotide sequence
    print OUTPUT "backtranseq $file -outfile nucleotide_$file.fasta;\n";
    #compseq to calculate the composition of unique words in sequences
