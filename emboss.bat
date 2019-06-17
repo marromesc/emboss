@@ -1,5 +1,5 @@
 infoseq Q9NZQ7.fasta > Q9NZQ7.fasta.infoseq;
-backtranambig $file -outfile ambigous_nucleotide_$file.fasta;
+backtranambig Q9NZQ7.fasta -outfile ambigous_nucleotide_Q9NZQ7.fasta;
 backtranseq Q9NZQ7.fasta -outfile nucleotide_Q9NZQ7.fasta.fasta;
 compseq Q9NZQ7.fasta -word 3 -auto;
 pepdigest Q9NZQ7.fasta -menu 1 -outfile trypsin_Q9NZQ7.fasta.fasta -auto;
