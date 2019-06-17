@@ -6,4 +6,4 @@ Just save your .FASTA files in a folder named fastaseq and execute the script wi
 
 perl protein_analyzer.pl
 
-In the documentation it is attached a .bat example file to analyze the sequence of protein PDL-1, also attached in DATA folder.
+In the documentation it is attached a .bat example file to analyze the sequence of protein PDL-1, also attached.
