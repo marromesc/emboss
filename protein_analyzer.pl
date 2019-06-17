@@ -36,8 +36,6 @@ foreach my $file(@files){
    print OUTPUT "backtranambig $file -outfile ambigous_nucleotide_$file;\n";
    #backtranseq to back-translate a protein sequence to a nucleotide sequence
    print OUTPUT "backtranseq $file -outfile nucleotide_$file;\n";
-   #compseq to calculate the composition of unique words in sequences
-   print OUTPUT "compseq $file -word 3 -auto;\n";
    #pepdigest to report on protein proteolytic enzyme or reagent cleavage sites
    print OUTPUT "pepdigest $file -menu 1 -outfile trypsin_$file -auto;\n";
    print OUTPUT "pepdigest $file -menu 2 -outfile LysC_$file -auto;\n";
