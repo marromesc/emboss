@@ -6,4 +6,6 @@ Just save your .FASTA files in a folder named fastaseq and execute the script wi
 
 perl protein_analyzer.pl
 
-In the documentation it is attached a .bat example file to analyze the sequence of protein PDL-1, also attached.
+In the documentation it is attached a .bat example file to analyze the sequence of protein PDL-1, also attached as Q9NZQ7.fasta. You can see the analysis results in the DATA folder.
+
+You can also see the HMMER Analysis result in HMMER_DATA folder.
