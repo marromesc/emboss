@@ -1,0 +1,45 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:56:06
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 2
+#    -outfile LysC_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: LysC_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 20
+#
+# Complete digestion with Lys-C yields 20 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+    190     263   8487.960 K      G      LFNVTSTLRINTTTNEIFYCTFRRLDPEENHTAELVIPELPLAHPPNERTHLVILGAILLCLGVALTFIFRLRK
+      1      25   3046.728 .      D      MRIFAVFIFMTYWHLLNAFTVTVPK
+    137     162   2940.321 K      A      INQRILVVDPVTSEHELTCQAEGYPK
+    106     124   2110.387 K      R      LQDAGVYRCMISYGGADYK
+     47      62   1937.238 K      N      QLDLAALIVYWEMEDK
+     26      41   1864.115 K      F      DLYVVEYGSNMTIECK
+    163     178   1756.933 K      T      AEVIWTSSDHQVLSGK
+     76      89   1742.017 K      D      VQHSSYRQRARLLK
+     90     105   1685.895 K      L      DQLSLGNAALQITDVK
+     63      75   1541.724 K      V      NIIQFVHGEEDLK
+    282     290   1059.054 K      .      QSDTHLEET
+    272     280    965.046 K      K      CGIQDTNSK
+    264     270    836.035 K      K      GRMMDVK
+    130     136    804.901 K      I      VNAPYNK
+    179     185    751.792 K      R      TTTTNSK
+     42      46    618.731 K      Q      FPVEK
+    125     129    615.774 K      V      RITVK
+    186     189    560.608 K      L      REEK
+    281     281    146.189 K      Q      K
+    271     271    146.189 K      C      K
+
+#---------------------------------------
+#---------------------------------------

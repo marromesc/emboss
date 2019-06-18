@@ -1,0 +1,24 @@
+########################################
+# Program: pepcoil
+# Rundate: Mon 17 Jun 2019 21:16:25
+# Commandline: pepcoil
+#    [-sequence] Q9NZQ7.fasta
+#    -auto
+# Report_format: motif
+# Report_file: pd1l1_human.pepcoil
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 0
+#
+# Window size: 28 residues
+#
+#=======================================
+
+Max_coil_pos at "*"
+
+
+#---------------------------------------
+#---------------------------------------

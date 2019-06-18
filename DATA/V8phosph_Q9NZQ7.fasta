@@ -1,0 +1,59 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:58:14
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 6
+#    -outfile V8phosph_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: V8phosph_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 34
+#
+# Complete digestion with V8-phosph yields 34 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+    238     268   3528.429 E      V      RTHLVILGAILLCLGVALTFIFRLRKGRMMD
+    123     150   3258.812 D      H      YKRITVKVNAPYNKINQRILVVDPVTSE
+      1      26   3161.816 .      L      MRIFAVFIFMTYWHLLNAFTVTVPKD
+     74      90   2098.439 D      Q      LKVQHSSYRQRARLLKD
+    189     205   1952.195 E      I      KLFNVTSTLRINTTTNE
+    172     187   1786.963 D      E      HQVLSGKTTTTNSKRE
+    206     217   1559.803 E      E      IFYCTFRRLDPE
+    109     122   1462.658 D      Y      AGVYRCMISYGGAD
+     91     103   1343.499 D      V      QLSLGNAALQITD
+     62      71   1184.360 D      E      KNIIQFVHGE
+     50      58   1077.288 D      M      LAALIVYWE
+    229     237    987.123 E      R      LPLAHPPNE
+     32      39    913.998 E      C      YGSNMTIE
+    277     284    906.948 D      T      TNSKKQSD
+    269     276    890.065 D      T      VKKCGIQD
+    165     171    806.871 E      H      VIWTSSD
+     40      45    721.870 E      K      CKFPVE
+    159     164    663.728 E      V      GYPKAE
+    153     158    663.744 E      G      LTCQAE
+     27      31    621.731 D      Y      LYVVE
+    104     108    601.701 D      A      VKLQD
+    224     228    569.699 E      L      LVIPE
+    219     223    570.560 E      L      NHTAE
+     46      49    502.568 E      L      KQLD
+    285     288    498.536 D      E      THLE
+    151     152    284.272 E      L      HE
+     59      60    278.323 E      D      ME
+    289     289    147.131 E      T      E
+    218     218    147.131 E      N      E
+    188     188    147.131 E      K      E
+     72      72    147.131 E      D      E
+     73      73    133.104 E      L      D
+     61      61    133.104 E      K      D
+    290     290    119.120 E      .      T
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,40 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:57:37
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 5
+#    -outfile V8bicarb_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: V8bicarb_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 15
+#
+# Complete digestion with V8-bicarb yields 15 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+     73     150   8808.137 E      H      DLKVQHSSYRQRARLLKDQLSLGNAALQITDVKLQDAGVYRCMISYGGADYKRITVKVNAPYNKINQRILVVDPVTSE
+    229     289   6868.157 E      T      LPLAHPPNERTHLVILGAILLCLGVALTFIFRLRKGRMMDVKKCGIQDTNSKKQSDTHLEE
+    165     205   4639.113 E      I      VIWTSSDHQVLSGKTTTTNSKREEKLFNVTSTLRINTTTNE
+      1      31   3765.532 .      Y      MRIFAVFIFMTYWHLLNAFTVTVPKDLYVVE
+     40      58   2265.695 E      M      CKFPVEKQLDLAALIVYWE
+    206     218   1688.918 E      N      IFYCTFRRLDPEE
+     61      72   1428.564 E      D      DKNIIQFVHGEE
+     32      39    913.998 E      C      YGSNMTIE
+    159     164    663.728 E      V      GYPKAE
+    153     158    663.744 E      G      LTCQAE
+    224     228    569.699 E      L      LVIPE
+    219     223    570.560 E      L      NHTAE
+    151     152    284.272 E      L      HE
+     59      60    278.323 E      D      ME
+    290     290    119.120 E      .      T
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,41 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:56:40
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 3
+#    -outfile ArgC_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: ArgC_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 16
+#
+# Complete digestion with Arg-C yields 16 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+      3      82   9507.019 R      Q      IFAVFIFMTYWHLLNAFTVTVPKDLYVVEYGSNMTIECKFPVEKQLDLAALIVYWEMEDKNIIQFVHGEEDLKVQHSSYR
+    141     186   5057.621 R      E      ILVVDPVTSEHELTCQAEGYPKAEVIWTSSDHQVLSGKTTTTNSKR
+     87     113   2943.393 R      C      LLKDQLSLGNAALQITDVKLQDAGVYR
+    266     290   2867.214 R      .      MMDVKKCGIQDTNSKKQSDTHLEET
+    214     238   2831.134 R      T      LDPEENHTAELVIPELPLAHPPNER
+    239     260   2384.007 R      L      THLVILGAILLCLGVALTFIFR
+    126     140   1758.054 R      I      ITVKVNAPYNKINQR
+    199     212   1722.933 R      R      INTTTNEIFYCTFR
+    187     198   1436.628 R      I      EEKLFNVTSTLR
+    114     125   1363.569 R      I      CMISYGGADYKR
+    263     265    359.429 R      M      KGR
+      1       2    305.395 .      I      MR
+     83      84    302.333 R      A      QR
+    261     262    287.362 R      K      LR
+     85      86    245.282 R      L      AR
+    213     213    174.203 R      L      R
+
+#---------------------------------------
+#---------------------------------------

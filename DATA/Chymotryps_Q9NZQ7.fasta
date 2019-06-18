@@ -1,0 +1,85 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:58:44
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 7
+#    -outfile Chymotryps_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: Chymotryps_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 60
+#
+# Complete digestion with Chymotrypsin yields 60 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+    268     287   2245.492 M      E      DVKKCGIQDTNSKKQSDTHL
+    176     190   1679.848 L      F      SGKTTTTNSKREEKL
+    154     167   1594.802 L      T      TCQAEGYPKAEVIW
+     37      48   1434.714 M      D      TIECKFPVEKQL
+    124     134   1288.556 Y      N      KRITVKVNAPY
+    143     153   1224.333 L      T      VVDPVTSEHEL
+    198     207   1208.337 L      Y      RINTTTNEIF
+    232     241   1171.281 L      V      AHPPNERTHL
+    215     224   1154.155 L      V      DPEENHTAEL
+     60      67   1006.123 M      V      EDKNIIQF
+    135     142    998.193 Y      V      NKINQRIL
+    168     175    885.929 W      S      TSSDHQVL
+     20      27    872.029 F      Y      TVTVPKDL
+     75      81    847.926 L      R      KVQHSSY
+    100     106    815.965 L      Q      QITDVKL
+     82      87    798.947 Y      L      RQRARL
+     68      74    797.820 F      K      VHGEEDL
+    225     231    779.975 L      A      VIPELPL
+    107     112    651.674 L      R      QDAGVY
+    262     266    646.809 L      M      RKGRM
+    192     197    633.699 F      R      NVTSTL
+     29      32    508.572 Y      G      VVEY
+     89      92    502.568 L      S      KDQL
+    119     123    481.462 Y      K      GGADY
+    212     214    443.550 F      D      RRL
+     95      99    444.488 L      Q      GNAAL
+      2       4    434.539 M      A      RIF
+    113     115    408.534 Y      I      RCM
+     33      36    407.442 Y      T      GSNM
+     54      56    393.483 L      W      IVY
+    116     118    381.429 M      G      ISY
+    288     290    377.351 L      .      EET
+    245     248    372.465 L      L      GAIL
+    209     211    369.436 Y      R      CTF
+    252     255    358.438 L      T      GVAL
+     17      19    350.374 L      T      NAF
+    242     244    343.467 L      G      VIL
+      5       7    335.403 F      I      AVF
+    260     261    287.362 F      R      RL
+     11      12    282.296 M      W      TY
+    258     259    278.351 F      R      IF
+     58      59    278.323 W      E      EM
+      8       9    278.351 F      M      IF
+     51      53    273.332 L      I      AAL
+     14      15    268.316 W      L      HL
+    256     257    266.297 L      I      TF
+     49      50    246.263 L      A      DL
+    250     251    234.313 L      G      CL
+     93      94    218.253 L      G      SL
+     57      57    204.228 Y      E      W
+     13      13    204.228 Y      H      W
+    208     208    181.191 F      C      Y
+     28      28    181.191 L      V      Y
+    191     191    165.192 L      N      F
+    267     267    149.208 M      D      M
+     10      10    149.208 F      T      M
+      1       1    149.208 .      R      M
+    249     249    131.175 L      C      L
+     88      88    131.175 L      K      L
+     16      16    131.175 L      N      L
+
+#---------------------------------------
+#---------------------------------------

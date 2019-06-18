@@ -1,0 +1,33 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:59:11
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 8
+#    -outfile CNBr_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: CNBr_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 8
+#
+# Complete digestion with CNBr yields 8 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+    116     266  17061.524 M      M      ISYGGADYKRITVKVNAPYNKINQRILVVDPVTSEHELTCQAEGYPKAEVIWTSSDHQVLSGKTTTTNSKREEKLFNVTSTLRINTTTNEIFYCTFRRLDPEENHTAELVIPELPLAHPPNERTHLVILGAILLCLGVALTFIFRLRKGRM
+     60     115   6395.180 M      I      EDKNIIQFVHGEEDLKVQHSSYRQRARLLKDQLSLGNAALQITDVKLQDAGVYRCM
+     11      36   3013.362 M      T      TYWHLLNAFTVTVPKDLYVVEYGSNM
+     37      59   2692.128 M      E      TIECKFPVEKQLDLAALIVYWEM
+    268     290   2556.689 M      .      DVKKCGIQDTNSKKQSDTHLEET
+      2      10   1095.315 M      T      RIFAVFIFM
+    267     267    101.068 M      D      M
+      1       1    101.068 .      R      M
+
+#---------------------------------------
+#---------------------------------------

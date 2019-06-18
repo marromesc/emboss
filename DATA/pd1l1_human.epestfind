@@ -1,0 +1,64 @@
+PEST-find: Finds PEST motifs as potential proteolytic cleavage sites.
+
+    11 PEST motifs were identified in PD1L1_HUMAN
+       from positions 1 to 290 and sorted by score.
+
+Poor PEST motif with 10 amino acids between position 151 and 162.
+   151 HELTCQAEGYPK 162
+       PEST score: -13.32  
+
+Poor PEST motif with 10 amino acids between position 140 and 151.
+   140 RILVVDPVTSEH 151
+       PEST score: -16.77  
+
+Poor PEST motif with 12 amino acids between position 220 and 233.
+   220 HTAELVIPELPLAH 233
+       PEST score: -17.14  
+
+Invalid PEST motif with 11 amino acids between position 2 and 14.
+     2 RIFAVFIFMTYWH 14
+
+Invalid PEST motif with 10 amino acids between position 14 and 25.
+    14 HLLNAFTVTVPK 25
+
+Invalid PEST motif with 15 amino acids between position 25 and 41.
+    25 KDLYVVEYGSNMTIECK 41
+
+Invalid PEST motif with 15 amino acids between position 46 and 62.
+    46 KQLDLAALIVYWEMEDK 62
+
+Invalid PEST motif with 15 amino acids between position 89 and 105.
+    89 KDQLSLGNAALQITDVK 105
+
+Invalid PEST motif with 10 amino acids between position 113 and 124.
+   113 RCMISYGGADYK 124
+
+Invalid PEST motif with 13 amino acids between position 198 and 212.
+   198 RINTTTNEIFYCTFR 212
+
+Invalid PEST motif with 19 amino acids between position 240 and 260.
+   240 HLVILGAILLCLGVALTFIFR 260
+
+
+       ---------+---------+---------+---------+---------+---------+
+
+     1 MRIFAVFIFMTYWHLLNAFTVTVPKDLYVVEYGSNMTIECKFPVEKQLDLAALIVYWEME 60
+         ----------- ---------- ---------------      --------------
+
+    61 DKNIIQFVHGEEDLKVQHSSYRQRARLLKDQLSLGNAALQITDVKLQDAGVYRCMISYGG 120
+       -                            ---------------         -------
+
+   121 ADYKRITVKVNAPYNKINQRILVVDPVTSEHELTCQAEGYPKAEVIWTSSDHQVLSGKTT 180
+       ---                 OOOOOOOOOO OOOOOOOOOO                   
+
+   181 TTNSKREEKLFNVTSTLRINTTTNEIFYCTFRRLDPEENHTAELVIPELPLAHPPNERTH 240
+                         -------------         OOOOOOOOOOOO        
+
+   241 LVILGAILLCLGVALTFIFRLRKGRMMDVKKCGIQDTNSKKQSDTHLEET 290
+       -------------------                               
+
+       Symbols   PEST motifs
+       +++++++   potential
+       OOOOOOO   poor     
+       -------   invalid  
+

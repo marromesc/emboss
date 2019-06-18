@@ -1,0 +1,40 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:57:07
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 4
+#    -outfile AspN_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: AspN_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 15
+#
+# Complete digestion with Asp-N yields 15 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+    215     267   5957.113 L      D      DPEENHTAELVIPELPLAHPPNERTHLVILGAILLCLGVALTFIFRLRKGRMM
+    171     214   5165.813 S      D      DHQVLSGKTTTTNSKREEKLFNVTSTLRINTTTNEIFYCTFRRL
+      1      25   3046.728 .      D      MRIFAVFIFMTYWHLLNAFTVTVPK
+    145     170   2878.117 V      D      DPVTSEHELTCQAEGYPKAEVIWTSS
+    122     144   2745.264 A      D      DYKRITVKVNAPYNKINQRILVV
+     26      48   2706.121 K      D      DLYVVEYGSNMTIECKFPVEKQL
+     73      89   2098.439 E      D      DLKVQHSSYRQRARLLK
+    108     121   1462.658 Q      D      DAGVYRCMISYGGA
+     49      60   1452.685 L      D      DLAALIVYWEME
+     61      72   1428.564 E      D      DKNIIQFVHGEE
+     90     102   1343.499 K      D      DQLSLGNAALQIT
+    276     283    906.948 Q      D      DTNSKKQS
+    268     275    890.065 M      D      DVKKCGIQ
+    284     290    843.846 S      .      DTHLEET
+    103     107    601.701 T      D      DVKLQ
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,48 @@
+PEPSTATS of PD1L1_HUMAN from 1 to 290
+
+Molecular weight = 33275.35  		Residues = 290   
+Average Residue Weight  = 114.743 	Charge   = 3.5   
+Isoelectric Point = 7.1715
+A280 Molar Extinction Coefficients  = 32890 (reduced)   33265 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 0.988 (reduced)   1.000 (cystine bridges)
+Probability of expression in inclusion bodies = 0.518
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		16		5.517  		0.642  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		6		2.069  		0.713  	
+D = Asp		14		4.828  		0.878  	
+E = Glu		21		7.241  		1.207  	
+F = Phe		11		3.793  		1.054  	
+G = Gly		12		4.138  		0.493  	
+H = His		9		3.103  		1.552  	
+I = Ile		19		6.552  		1.456  	
+J = ---		0		0.000  		0.000  	
+K = Lys		19		6.552  		0.993  	
+L = Leu		30		10.345 		1.398  	
+M = Met		7		2.414  		1.420  	
+N = Asn		14		4.828  		1.123  	
+O = ---		0		0.000  		0.000  	
+P = Pro		10		3.448  		0.663  	
+Q = Gln		12		4.138  		1.061  	
+R = Arg		15		5.172  		1.056  	
+S = Ser		13		4.483  		0.640  	
+T = Thr		25		8.621  		1.413  	
+U = ---		0		0.000  		0.000  	
+V = Val		23		7.931  		1.202  	
+W = Trp		3		1.034  		0.796  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		11		3.793  		1.116  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		72		24.828
+Small		(A+B+C+D+G+N+P+S+T+V)	133		45.862
+Aliphatic	(A+I+L+V)		88		30.345
+Aromatic	(F+H+W+Y)		34		11.724
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	148		51.034
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	142		48.966
+Charged		(B+D+E+H+K+R+Z)		78		26.897
+Basic		(H+K+R)			43		14.828
+Acidic		(B+D+E+Z)		35		12.069
+

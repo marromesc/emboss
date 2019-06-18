@@ -1,0 +1,73 @@
+########################################
+# Program: garnier
+# Rundate: Mon 17 Jun 2019 21:08:19
+# Commandline: garnier
+#    [-sequence] Q9NZQ7.fasta
+#    -auto
+# Report_format: tagseq
+# Report_file: pd1l1_human.garnier
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 69
+#
+# DCH = 0, DCS = 0
+# 
+#  Please cite:
+#  Garnier, Osguthorpe and Robson (1978) J. Mol. Biol. 120:97-120
+# 
+#
+#=======================================
+
+          .   10    .   20    .   30    .   40    .   50
+      MRIFAVFIFMTYWHLLNAFTVTVPKDLYVVEYGSNMTIECKFPVEKQLDL
+helix HHHHHH   HHHH                      HHHH HHHHHHHHHH
+sheet       EEE          EEEE   EEEEE                   
+turns                  TT    TTT     TTT     T          
+ coil              CCCC                 C               
+          .   60    .   70    .   80    .   90    .  100
+      AALIVYWEMEDKNIIQFVHGEEDLKVQHSSYRQRARLLKDQLSLGNAALQ
+helix HHHHHHHHHHHHHHHH    HHHHHHHH                  HHHH
+sheet                 EE               EEEEEEEEE        
+turns                               TTT                 
+ coil                   CC        CC            CCCC    
+          .  110    .  120    .  130    .  140    .  150
+      ITDVKLQDAGVYRCMISYGGADYKRITVKVNAPYNKINQRILVVDPVTSE
+helix                                                 HH
+sheet EEEEEE    EEEEEEE     EEEEEEEEE     EEEEEEEEE     
+turns       TTTT       TTT             TTT              
+ coil                     CC         CC            CCC  
+          .  160    .  170    .  180    .  190    .  200
+      HELTCQAEGYPKAEVIWTSSDHQVLSGKTTTTNSKREEKLFNVTSTLRIN
+helix HHHHHHHH    HH                     HHHHHHHHH      
+sheet               EEE                             EEE 
+turns            T        T    TTT                      
+ coil         CCC      CCC CCCC   CCCCCCC         CC   C
+          .  210    .  220    .  230    .  240    .  250
+      TTTNEIFYCTFRRLDPEENHTAELVIPELPLAHPPNERTHLVILGAILLC
+helix                  HHHHHHHH HHHH      HHH           
+sheet      EEEEE               E             EEEEEEEEEEE
+turns    TT     TTT                 T    T              
+ coil CCC          CCCC              CCCC               
+          .  260    .  270    .  280    .  290
+      LGVALTFIFRLRKGRMMDVKKCGIQDTNSKKQSDTHLEET
+helix   HHH  HHHH   HHHHHH   H            HHHH
+sheet EE   EE              EE E               
+turns            TTT      T    TTTTTT         
+ coil                                CCCCC    
+
+#---------------------------------------
+#
+#  Residue totals: H:106   E: 84   T: 44   C: 56
+#         percent: H: 38.7 E: 30.7 T: 16.1 C: 20.4
+#
+#---------------------------------------
+
+#---------------------------------------
+# Total_sequences: 1
+# Total_length: 290
+# Reported_sequences: 1
+# Reported_hitcount: 69
+#---------------------------------------

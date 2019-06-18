@@ -1,0 +1,31 @@
+########################################
+# Program: helixturnhelix
+# Rundate: Mon 17 Jun 2019 21:15:17
+# Commandline: helixturnhelix
+#    [-sequence] Q9NZQ7.fasta
+#    -auto
+# Report_format: motif
+# Report_file: pd1l1_human.hth
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 0
+#
+# Hits above +2.50 SD (972.73)
+#
+#=======================================
+
+Maximum_score_at at "*"
+
+
+#---------------------------------------
+#---------------------------------------
+
+#---------------------------------------
+# Total_sequences: 1
+# Total_length: 290
+# Reported_sequences: 1
+# Reported_hitcount: 0
+#---------------------------------------

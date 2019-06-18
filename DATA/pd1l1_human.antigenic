@@ -1,0 +1,20 @@
+##gff-version 3
+##sequence-region PD1L1_HUMAN 1 290
+#!Date 2019-06-17
+#!Type Protein
+#!Source-version EMBOSS 6.6.0.0
+PD1L1_HUMAN	antigenic	epitope	239	261	1.224	.	.	ID=PD1L1_HUMAN.1;note=*pos 250
+PD1L1_HUMAN	antigenic	epitope	139	150	1.212	.	.	ID=PD1L1_HUMAN.2;note=*pos 144
+PD1L1_HUMAN	antigenic	epitope	39	57	1.189	.	.	ID=PD1L1_HUMAN.3;note=*pos 53
+PD1L1_HUMAN	antigenic	epitope	4	32	1.152	.	.	ID=PD1L1_HUMAN.4;note=*pos 30
+PD1L1_HUMAN	antigenic	epitope	222	234	1.145	.	.	ID=PD1L1_HUMAN.5;note=*pos 227
+PD1L1_HUMAN	antigenic	epitope	84	117	1.117	.	.	ID=PD1L1_HUMAN.6;note=*pos 114
+PD1L1_HUMAN	antigenic	epitope	65	71	1.11	.	.	ID=PD1L1_HUMAN.7;note=*pos 67
+PD1L1_HUMAN	antigenic	epitope	125	133	1.109	.	.	ID=PD1L1_HUMAN.8;note=*pos 131
+PD1L1_HUMAN	antigenic	epitope	73	82	1.101	.	.	ID=PD1L1_HUMAN.9;note=*pos 77
+PD1L1_HUMAN	antigenic	epitope	269	275	1.099	.	.	ID=PD1L1_HUMAN.10;note=*pos 272
+PD1L1_HUMAN	antigenic	epitope	206	212	1.098	.	.	ID=PD1L1_HUMAN.11;note=*pos 209
+PD1L1_HUMAN	antigenic	epitope	171	177	1.092	.	.	ID=PD1L1_HUMAN.12;note=*pos 173
+PD1L1_HUMAN	antigenic	epitope	152	158	1.087	.	.	ID=PD1L1_HUMAN.13;note=*pos 154
+PD1L1_HUMAN	antigenic	epitope	162	168	1.086	.	.	ID=PD1L1_HUMAN.14;note=*pos 163
+PD1L1_HUMAN	antigenic	epitope	190	196	1.07	.	.	ID=PD1L1_HUMAN.15;note=*pos 196

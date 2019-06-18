@@ -1,0 +1,43 @@
+########################################
+# Program: pepdigest
+# Rundate: Mon 17 Jun 2019 19:54:24
+# Commandline: pepdigest
+#    [-seqall] Q9NZQ7.fasta
+#    -menu 1
+#    -outfile trypsin_Q9NZQ7.fasta
+#    -auto
+# Report_format: seqtable
+# Report_file: trypsin_Q9NZQ7.fasta
+########################################
+
+#=======================================
+#
+# Sequence: PD1L1_HUMAN     from: 1   to: 290
+# HitCount: 18
+#
+# Complete digestion with Trypsin yields 18 fragments
+#
+#=======================================
+
+  Start     End Mol_Weight Cterm  Nterm  Sequence
+    187     238   6110.853 R      T      EEKLFNVTSTLRINTTTNEIFYCTFRRLDPEENHTAELVIPELPLAHPPNER
+    130     162   3727.207 K      A      VNAPYNKINQRILVVDPVTSEHELTCQAEGYPK
+      1      25   3046.728 .      D      MRIFAVFIFMTYWHLLNAFTVTVPK
+    239     263   2781.528 R      G      THLVILGAILLCLGVALTFIFRLRK
+     90     113   2588.900 K      C      DQLSLGNAALQITDVKLQDAGVYR
+     26      46   2464.831 K      Q      DLYVVEYGSNMTIECKFPVEK
+     47      62   1937.238 K      N      QLDLAALIVYWEMEDK
+    114     129   1805.140 R      V      CMISYGGADYKRITVK
+    163     178   1756.933 K      T      AEVIWTSSDHQVLSGK
+     63      75   1541.724 K      V      NIIQFVHGEEDLK
+    272     281   1093.220 K      Q      CGIQDTNSKK
+    282     290   1059.054 K      .      QSDTHLEET
+    179     186    907.979 K      E      TTTTNSKR
+     76      82    875.940 K      Q      VQHSSYR
+    266     271    750.970 R      C      MMDVKK
+     85      89    599.774 R      D      ARLLK
+     83      84    302.333 R      A      QR
+    264     265    231.255 K      M      GR
+
+#---------------------------------------
+#---------------------------------------
